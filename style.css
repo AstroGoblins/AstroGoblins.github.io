@@ -1,0 +1,29 @@
+:root { --bg:#0b0a1f; --panel:#1c1844; --gold:#ffcf5a; --cyan:#4fd8ff; --text:#e6f1ff; --muted:#a9b3d6; }
+* { box-sizing: border-box; }
+body { margin:0; background: radial-gradient(ellipse at top, #2a1f66 0%, var(--bg) 60%) fixed; color:var(--text);
+       font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Avenir Next", "Segoe UI", Roboto, sans-serif; }
+a { color: var(--cyan); }
+header { display:flex; align-items:center; gap:14px; max-width:860px; margin:0 auto; padding:22px 20px; }
+header img { width:52px; height:52px; border-radius:12px; }
+header .brand { font-weight:800; font-size:22px; color:var(--gold); text-decoration:none; }
+nav { margin-left:auto; display:flex; gap:18px; font-weight:600; }
+nav a { text-decoration:none; color:var(--text); opacity:.85; }
+nav a:hover { opacity:1; color:var(--gold); }
+main { max-width:860px; margin:0 auto; padding:0 20px 60px; }
+.hero { text-align:center; padding:20px 0 10px; }
+.hero img.poster { width:100%; max-width:420px; border-radius:22px; box-shadow:0 20px 60px rgba(0,0,0,.55); }
+.hero h1 { font-size:44px; margin:24px 0 6px; color:var(--gold); letter-spacing:.5px; }
+.hero p.tag { font-size:20px; color:var(--muted); margin:0 0 18px; }
+.badge { display:inline-block; padding:12px 22px; border-radius:14px; background:linear-gradient(#7b4dff,#4a22b0); color:#fff; font-weight:800; }
+.cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px; margin:34px 0; }
+.card { background:var(--panel); border:1px solid rgba(79,216,255,.25); border-radius:16px; padding:18px; }
+.card h3 { margin:0 0 6px; color:var(--gold); font-size:18px; }
+.card p { margin:0; color:var(--muted); font-size:15px; }
+article { background:var(--panel); border-radius:18px; padding:26px 28px; margin:24px 0; border:1px solid rgba(255,255,255,.08); }
+article h1 { color:var(--gold); margin-top:0; }
+article h2 { color:var(--cyan); font-size:20px; margin-top:28px; }
+.muted { color:var(--muted); font-size:14px; }
+.lang { margin:10px 0 0; }
+footer { text-align:center; color:var(--muted); font-size:14px; padding:30px 20px 40px; }
+details { background:rgba(255,255,255,.04); border-radius:12px; padding:12px 16px; margin:10px 0; }
+summary { cursor:pointer; font-weight:700; }
