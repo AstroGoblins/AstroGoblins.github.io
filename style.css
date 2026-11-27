@@ -14,7 +14,7 @@ main { max-width:860px; margin:0 auto; padding:0 20px 60px; }
 .hero img.poster { width:100%; max-width:420px; border-radius:22px; box-shadow:0 20px 60px rgba(0,0,0,.55); }
 .hero h1 { font-size:44px; margin:24px 0 6px; color:var(--gold); letter-spacing:.5px; }
 .hero p.tag { font-size:20px; color:var(--muted); margin:0 0 18px; }
-.badge { display:inline-block; padding:12px 22px; border-radius:14px; background:linear-gradient(#7b4dff,#4a22b0); color:#fff; font-weight:800; }
+.badge { display:inline-block; padding:12px 22px; border-radius:14px; background:linear-gradient(#7b4dff,#4a22b0); color:#fff; font-weight:800; text-decoration:none; }
 .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px; margin:34px 0; }
 .card { background:var(--panel); border:1px solid rgba(79,216,255,.25); border-radius:16px; padding:18px; }
 .card h3 { margin:0 0 6px; color:var(--gold); font-size:18px; }
